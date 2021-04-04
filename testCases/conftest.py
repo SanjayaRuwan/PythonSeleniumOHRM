@@ -5,7 +5,7 @@ from selenium import webdriver
 @pytest.fixture()
 def setup(browser):
     # if browser == 'chrome':
-    driver = webdriver.Chrome('D:\OrangeHRM\Drivers\chromedriver.exe')
+    driver = webdriver.Chrome('Drivers/chromedriver.exe')
     print("Launching chrome browser")
     # else:
     #     driver = webdriver.Firefox('D:\OrangeHRM\Drivers\geckodriver.exe')
