@@ -33,7 +33,7 @@ def browser(request):
 def pytest_configure(config):
     config._metadata['Project Name'] = 'Orange HRM'
     config._metadata['Module Name'] = 'Employees'
-    config._metadata['Tester'] = 'Sanjaya'
+    config._metadata['Tester'] = 'Sanjaya Ruwan'
 
 
 # It is hook for delete/Modify Environment info to HTML Report
